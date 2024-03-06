@@ -1,0 +1,1220 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Start section1 */
+.sec1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1 .background {
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+
+.sec1 header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 0;
+    align-items: center;
+
+}
+
+.sec1 header .left {
+    display: flex;
+}
+
+.sec1 header .logo img {
+    width: 145px;
+    padding-top: 15px;
+}
+
+.sec1 ul {
+    display: flex;
+    align-items: center;
+}
+
+.sec1 header ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.sec1 header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.sec1 .right {
+    z-index: 1;
+}
+
+.sec1 .right .login {
+    position: relative;
+}
+
+.sec1 .login p {
+    position: absolute;
+    top: 15.5%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.sec1 .login img {
+    width: 120px;
+    height: 42px;
+}
+
+/* End header */
+.sec1 .landing {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px;
+}
+
+.sec1 .landing .text {
+    padding-top: 140px;
+}
+
+.sec1 .landing h1 {
+    font-weight: 450;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000a1;
+
+}
+
+.sec1 .landing span {
+    color: #823f93;
+}
+
+.sec1 .landing p {
+    color: rgba(0, 0, 0, 0.249);
+    font-size: 30px;
+    line-height: 41.5px;
+    width: 80%;
+}
+
+.sec1 .landing .img {
+    position: relative;
+    width: 50%;
+
+}
+
+.sec1 .landing .one {
+    position: relative;
+    width: 100%;
+    bottom: 19%;
+    left: 17%;
+}
+
+.sec1 .landing .two {
+    position: absolute;
+    width: 45%;
+    bottom: 40%;
+    left: 38%;
+
+}
+
+.sec1 .landing .three {
+    width: 50%;
+    position: absolute;
+    left: 33%;
+    top: 45%;
+}
+
+.sec1 .last-bg img {
+    position: absolute;
+    width: 100%;
+    top: 64%;
+    right: 25%;
+    z-index: -1;
+}
+
+/* End sec1 */
+/* ----------------------------------- */
+/* Start Sec2 */
+.sec2 {
+    text-align: center;
+    position: relative;
+    height: 90vh;
+    margin-left: 5%;
+}
+
+.sec2 .background {
+    position: absolute;
+    width: 67.7%;
+    height: 70%;
+    top: -11%;
+    left: 20%;
+}
+
+.div1,
+.div2,
+.div3 {
+    width: 30%;
+}
+
+.sec2 .div4 {}
+
+.sec2 .div1 {
+    position: absolute;
+    top: -1%;
+    left: 4%;
+}
+
+.sec2 .div2 {
+    position: absolute;
+    top: 18.6%;
+    left: 36%;
+}
+
+.sec2 .div3 {
+    position: absolute;
+    top: 57.3%;
+    left: 61.6%;
+}
+
+.sec2 .div4 {}
+
+.sec2 div img {
+    width: 45%;
+}
+
+.sec2 .div4 img {
+    width: 70%;
+}
+
+
+
+.sec2 .div4 .text {
+    flex-direction: column;
+    position: absolute;
+    top: 31%;
+    left: 31%;
+    line-height: 260%;
+    text-align: left;
+}
+
+.sec2 div h2 {
+    color: rgba(0, 0, 0, 0.44);
+    font-weight: 600;
+    font-size: 160%;
+    padding: 2% 0;
+}
+
+.sec2 div p {
+    color: rgba(0, 0, 0, 0.249);
+    line-height: 150%;
+    font-size: 125%;
+}
+
+.div4 .div4-in {
+    position: absolute;
+    top: 55%;
+    left: 4.7%;
+}
+
+.sec2 div h3 {
+    color: white;
+    font-weight: 430;
+    font-size: 18px;
+}
+
+.sec2 .div4 h2 {
+    color: white;
+    font-weight: 360;
+    font-size: 45px;
+}
+
+/* End Sec2 */
+/* ----------------------------------- */
+/* Start Sec3 */
+.sec3 {
+    padding: 5% 15%;
+}
+
+.sec3 .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec3 .container img {
+    width: 100%;
+}
+
+.sec3 .container .left img {
+    padding: 0 11%;
+}
+
+.sec3 .container a {
+    display: flex;
+    text-decoration: none;
+    color: #0000007c;
+    font-size: 25px;
+    padding-top: 18%;
+}
+
+.sec3 .container .text {
+    width: 70%;
+    margin: auto;
+}
+
+.sec3 .container .text h2 {
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.44);
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.sec3 .container .text p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.249);
+    line-height: 150%;
+    font-size: 20px;
+}
+
+/* End Sec3 */
+/* ----------------------------------- */
+/* Start Sec4 */
+footer {
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .out {
+    width: 111%;
+    position: absolute;
+    left: -4%;
+    bottom: -45%;
+    z-index: -1;
+    height: 160%;
+}
+
+footer .in {
+    width: 47%;
+    position: absolute;
+    left: 45.3%;
+    bottom: 0%;
+}
+
+footer .left-footer {
+    position: relative;
+    top: 57%;
+    left: 7%;
+}
+
+footer .left-footer>div {
+    display: flex;
+    margin: 1.5% 0;
+}
+
+footer .store {
+    display: flex;
+}
+
+footer .store>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    width: 200px;
+    height: 70px;
+    border-radius: 14px;
+    background-color: white;
+}
+
+footer .store>div img {
+    width: 38px;
+    height: 40px;
+    margin-right: 8%;
+}
+
+footer .social-media img {
+    margin: .7%;
+    width: 36px;
+    height: 30px;
+}
+
+
+
+footer .store p {
+    font-size: 13px;
+}
+
+footer .store span {
+    font-size: 18px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul a {
+    padding-right: 40px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+/* End Sec4 */
+
+
+
+
+
+/* Extra large  */
+@media (max-width: 1200px) {
+
+    /* start sec1 */
+    .sec1 header {
+        padding: 10px 50px 0
+    }
+
+    .sec1 .background {
+        height: 495px;
+    }
+
+    .sec1 .landing {}
+
+    .sec1 .landing .text {
+        padding: 0;
+    }
+
+    .sec1 .landing h1 {
+        font-size: 36px;
+        margin-bottom: ;
+    }
+
+    .sec1 .landing p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .sec1 .last-bg img {
+        top: 40%;
+    }
+
+    /* end sec1 */
+    /* -------------------------------------- */
+    /* Strat Sec2  */
+    .sec2 {
+        height: 70vh;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 200%;
+    }
+
+    .sec2 div h2 {
+        font-size: 140%;
+    }
+
+    .sec2 div p {
+        font-size: 100%;
+    }
+
+    .sec2 div h3 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .sec2 .div4 h2 {
+        font-size: 30px;
+    }
+
+    .sec2 .div4 .text {}
+
+    .sec2 .div4 img {
+        width: 60%;
+    }
+
+    /* End Sec2 */
+    /* ------------------ */
+    /* Start Sec3  */
+    .sec3 {
+        height: 45vh;
+    }
+
+    .sec3 .container .text h2 {
+        font-size: 20px;
+    }
+
+    .sec3 .container .text p {
+        line-height: 150%;
+        font-size: 16.5px;
+    }
+
+    /* End Sec3 */
+    /* Start Sec4 */
+    footer {}
+
+    footer .out {}
+
+    footer .store>div {}
+
+    footer .store>div img {}
+
+    /* End Sec4 */
+
+}
+
+
+
+/* Large devices */
+@media (max-width: 992px) {
+
+    /* start sec1  */
+    .sec1 header {
+        padding: 15px 42px 0 14px;
+        margin-bottom: 25px;
+    }
+
+    .sec1 .background {
+        height: 505px;
+    }
+
+    .sec1 header .logo img {
+        width: 130px;
+    }
+
+    .sec1 header ul li {
+        margin-right: 21px;
+    }
+
+    .sec1 header a {
+        font-size: 16.5px;
+    }
+
+    .sec1 .login p {
+        font-size: 16px;
+        top: 18.5%;
+        left: 28%;
+    }
+
+    .sec1 .login img {
+        width: 90px;
+        height: 33px;
+    }
+
+    .sec1 .landing {
+        padding: 55px 75px;
+    }
+
+    .sec1 .landing .text {
+        padding: 0;
+    }
+
+    .sec1 .landing h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+
+    }
+
+    .sec1 .landing p {
+        font-size: 15.6px;
+        line-height: 28px;
+    }
+
+    .sec1 .last-bg img {
+        width: 100%;
+        top: 41.5%;
+    }
+
+    /* End Sec1  */
+    /* -------------------------------------- */
+    /* Strat Sec2  */
+    .sec2 {
+        height: 55vh;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 200%;
+    }
+
+    .sec2 div h2 {
+        font-size: 100%;
+    }
+
+    .sec2 div p {
+        font-size: 75%;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 133%;
+    }
+
+    .sec2 div h3 {
+        color: white;
+        font-size: 12px;
+    }
+
+    .sec2 .div4 h2 {
+        font-size: 20px;
+    }
+
+    .sec2 .div4 .div4-in {
+        width: 45%;
+    }
+
+    /* End Sec2 */
+    /* ------------------ */
+    /* Start Sec3  */
+    .sec3 {
+        height: 35vh;
+    }
+
+    .sec3 .text {
+        width: 80%;
+    }
+
+    .sec3 .container .text h2 {
+        font-size: 20px;
+    }
+
+    .sec3 .container .text p {
+        line-height: 150%;
+        font-size: 16px;
+    }
+
+    /* End Sec3 */
+    /* Start Sec4 */
+    footer {
+        height: 45vh;
+
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 150px;
+        height: 50px;
+    }
+
+    footer .store>div img {
+        width: 26px;
+        height: 25px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 11px;
+    }
+
+    footer .store span {
+        font-size: 17px;
+    }
+
+    footer .social-media img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer ul li a {
+        font-size: 16px;
+    }
+
+    /* End Sec4 */
+
+}
+
+
+/* Medium  */
+@media (max-width: 768px) {
+
+    /* start sec1 */
+    .sec1 header {
+        padding: 0 20px 0 0;
+    }
+
+    .sec1 .background {
+        height: 380px;
+    }
+
+    .sec1 header .logo img {
+        width: 120px;
+    }
+
+    .sec1 header ul li {
+        margin-right: 11px;
+    }
+
+    .sec1 header a {
+        font-size: 13px;
+    }
+
+    .sec1 .login p {
+        font-size: 13px;
+        top: 24%;
+        left: 27%;
+    }
+
+    .sec1 .login img {
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        height: 28px;
+    }
+
+    .sec1 .landing {
+        padding: 12.5px 60px;
+    }
+
+    .sec1 .landing .text {
+        padding: 0;
+    }
+
+    .sec1 .landing h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .sec1 .landing p {
+        font-size: 12.5px;
+        line-height: 22px;
+    }
+
+    .sec1 .last-bg img {
+        width: 100%;
+        top: 30.2%;
+    }
+
+    /* end sec1 */
+    /* -------------------------------------- */
+    /* Strat Sec2  */
+    .sec2 {
+        height: 35vh;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 200%;
+    }
+
+    .sec2 div h2 {
+        font-size: 100%;
+    }
+
+    .sec2 div p {
+        font-size: 75%;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 133%;
+    }
+
+    .sec2 div h3 {
+        color: white;
+        font-size: 12px;
+    }
+
+    .sec2 .div4 h2 {
+        font-size: 20px;
+    }
+
+    .sec2 .div4 .div4-in {
+        width: 45%;
+    }
+
+    /* End Sec2 */
+    /* ------------------ */
+    /* Start Sec3  */
+    .sec3 {
+        height: 20vh;
+    }
+
+    .sec3 .text {
+        width: 80%;
+    }
+
+    .sec3 .container .text h2 {
+        font-size: 16.8px;
+    }
+
+    .sec3 .container .text p {
+        line-height: 150%;
+        font-size: 13.4px;
+    }
+
+    /* End Sec3 */
+    /* Start Sec4 */
+    footer {
+        height: 35vh;
+
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 150px;
+        height: 50px;
+    }
+
+    footer .store>div img {
+        width: 26px;
+        height: 25px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 11px;
+    }
+
+    footer .store span {
+        font-size: 17px;
+    }
+
+    footer .social-media img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 117px;
+        height: 43px;
+    }
+
+    footer .store>div img {
+        width: 20px;
+        height: 23px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 9px;
+    }
+
+    footer .store span {
+        font-size: 13px;
+    }
+
+    footer .social-media img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* End Sec4 */
+}
+
+
+
+
+/* Small */
+@media (max-width: 576px) {
+
+    /* start sec1 */
+    .sec1 header {
+        padding: 0 4px 0 0;
+    }
+
+    .sec1 .background {
+        height: 270px;
+    }
+
+    .sec1 header .logo img {
+        width: 75px;
+    }
+
+    .sec1 header a {
+        font-size: 8px;
+    }
+
+    .sec1 header ul li {
+        list-style: none;
+        margin-right: 10px;
+    }
+
+    .sec1 .login p {
+        font-size: 8px;
+        top: 24.5%;
+    }
+
+    .sec1 .login img {
+        display: flex;
+        justify-content: center;
+        width: 45px;
+        height: 17px;
+    }
+
+    .sec1 .landing {
+        padding: 25px 50px;
+    }
+
+    .sec1 .landing .text {
+        padding: 0;
+    }
+
+    .sec1 .landing h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sec1 .landing p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .sec1 .last-bg img {
+        width: 100%;
+        top: 23.5%;
+    }
+
+    /* end sec1 */
+    /* -------------------------------------- */
+    /* Strat Sec2  */
+    .sec2 {
+        height: 33.1vh;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 200%;
+    }
+
+    .sec2 div h2 {
+        font-size: 50%;
+    }
+
+    .sec2 div p {
+        font-size: 40%;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 100%;
+    }
+
+    .sec2 div h3 {
+        color: white;
+        font-size: 10px;
+    }
+
+    .sec2 .div4 h2 {
+        font-size: 15px;
+        padding-left: 1.5px;
+    }
+
+    .sec2 .div4 .div4-in {
+        width: 55%;
+    }
+
+    /* End Sec2 */
+    /* ------------------------------- */
+    /* Start Sec3  */
+    .sec3 {
+        height: 20vh;
+    }
+
+    .sec3 .text {
+        width: 80%;
+    }
+
+    .sec3 .container .text h2 {
+        font-size: 10px;
+    }
+
+    .sec3 .container .text p {
+        line-height: 150%;
+        font-size: 8px;
+    }
+
+    .sec3 .container a {
+        font-size: 20px;
+    }
+
+    /* End Sec3 */
+    /* Start Sec4 */
+    footer {
+        height: 32vh;
+    }
+
+    footer .left-footer>div {
+        display: flex;
+        margin: 3.5% 0;
+    }
+
+    footer .in {
+        display: none;
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 110px;
+        height: 1px;
+    }
+
+    footer .store>div img {
+        width: 26px;
+        height: 25px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 9px;
+    }
+
+    footer .store span {
+        font-size: 11px;
+    }
+
+    footer .social-media img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 110px;
+        height: 40px;
+    }
+
+    footer .store>div img {
+        width: 17px;
+        height: 18px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 9px;
+    }
+
+    footer .store span {
+        font-size: 10px;
+    }
+
+    footer .social-media img {
+        width: 18px;
+        height: 18px;
+    }
+
+    footer ul li a {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    /* End Sec4 */
+
+}
+
+
+/* Extra Small */
+
+@media (max-width: 320px) {
+
+
+    /* start sec1 */
+    .sec1 header {
+        padding: 0 15px 0 0;
+    }
+
+    .sec1 .background {
+        height: 132px;
+    }
+
+    .sec1 header .logo img {
+        width: 4p;
+    }
+
+    .sec1 header ul li {
+        margin-right: 4px;
+    }
+
+    .sec1 header a {
+        font-size: 7.6px;
+    }
+
+    .sec1 .login p {
+        font-size: 6px;
+        top: 25%;
+    }
+
+    .sec1 .login img {
+        display: flex;
+        justify-content: center;
+        width: 35px;
+        height: 12px;
+    }
+
+    .sec1 .landing {
+        padding: 0 23px;
+    }
+
+    .sec1 .landing .text {}
+
+    .sec1 .landing h1 {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .sec1 .landing p {
+        font-size: 5.5px;
+        line-height: normal;
+    }
+
+    .sec1 .last-bg img {
+        width: 100%;
+        top: 14%;
+    }
+
+    /* end sec1 */
+    /* -------------------------------------- */
+    /* Strat Sec2  */
+    .sec2 {
+        height: 38.8vh;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 200%;
+    }
+
+    .sec2 div h2 {
+        font-size: 60%;
+    }
+
+    .sec2 div p {
+        font-size: 50%;
+    }
+
+    .sec2 .div4 .text {
+        line-height: 60%;
+    }
+
+    .sec2 div h3 {
+        color: white;
+        font-size: 6px;
+    }
+
+    .sec2 .div4 h2 {
+        font-size: 11px;
+    }
+
+    .sec2 .div4 .div4-in {
+        width: 45%;
+    }
+
+    /* End Sec2 */
+    /* -------------------------- */
+    /* Start Sec3  */
+    .sec3 {
+        height: ;
+    }
+
+    .sec3 .text {
+        width: 80%;
+    }
+
+    .sec3 .container .text h2 {
+        font-size: 9px;
+    }
+
+    .sec3 .container .text p {
+        line-height: 150%;
+        font-size: 6px;
+    }
+
+    .sec3 .container a {
+        font-size: 15px;
+    }
+
+    /* End Sec3 */
+    /* Start Sec4 */
+    footer {
+        height: 30vh;
+    }
+
+    footer .left-footer>div {
+        display: flex;
+        margin: 4% 0;
+    }
+
+    footer .store>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        width: 200px;
+        height: 70px;
+        border-radius: 14px;
+        background-color: white;
+    }
+
+    footer .store>div img {
+        width: 38px;
+        height: 40px;
+        margin-right: 8%;
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 150px;
+        height: 50px;
+    }
+
+    footer .store>div img {
+        width: 26px;
+        height: 25px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 11px;
+    }
+
+    footer .store span {
+        font-size: 17px;
+    }
+
+    footer .social-media img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer .store>div {
+        margin: 0 5px;
+        width: 100px;
+        height: 39px;
+    }
+
+    footer .store>div img {
+        width: 17px;
+        height: 19px;
+        margin-right: 8%;
+    }
+
+    footer .store p {
+        font-size: 8px;
+    }
+
+    footer .store span {
+        font-size: 12px;
+    }
+
+    footer .social-media img {
+        width: 11px;
+        height: 11px;
+    }
+
+    footer ul li a {
+        font-size: 13px;
+    }
+
+    /* End Sec4 */
+
+}
