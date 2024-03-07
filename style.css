@@ -55,6 +55,14 @@ body {
     color: black;
     font-size: 18px;
     font-weight: 350;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+.sec1 header li a:hover {
+    padding-bottom: 7px;
+    color: rgb(130, 63, 147);
+    border-bottom:  3px solid rgb(130, 63, 147);
+
 }
 
 .sec1 .right {
