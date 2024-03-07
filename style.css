@@ -20,7 +20,7 @@ body {
     z-index: -10;
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 90%;
 }
 
 .sec1 header {
@@ -58,10 +58,11 @@ body {
     transition-duration: 0.2s;
     transition-delay: 0.2s;
 }
+
 .sec1 header li a:hover {
     padding-bottom: 7px;
     color: rgb(130, 63, 147);
-    border-bottom:  3px solid rgb(130, 63, 147);
+    border-bottom: 3px solid rgb(130, 63, 147);
 
 }
 
@@ -89,11 +90,12 @@ body {
 .sec1 .landing {
     display: flex;
     justify-content: space-between;
-    padding: 50px 140px;
+    padding: 50px 160px;
 }
 
 .sec1 .landing .text {
     padding-top: 140px;
+    width: 80%;
 }
 
 .sec1 .landing h1 {
@@ -110,14 +112,14 @@ body {
 
 .sec1 .landing p {
     color: rgba(0, 0, 0, 0.249);
-    font-size: 30px;
+    font-size: 23px;
     line-height: 41.5px;
-    width: 80%;
+    width: 100%;
 }
 
 .sec1 .landing .img {
     position: relative;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -130,23 +132,23 @@ body {
 
 .sec1 .landing .two {
     position: absolute;
-    width: 45%;
-    bottom: 40%;
-    left: 38%;
+    width: 42%;
+    bottom: 48%;
+    left: 40%;
 
 }
 
 .sec1 .landing .three {
-    width: 50%;
+    width: 60%;
     position: absolute;
-    left: 33%;
-    top: 45%;
+    left: 34%;
+    top: 42%;
 }
 
 .sec1 .last-bg img {
     position: absolute;
     width: 100%;
-    top: 64%;
+    top: 71%;
     right: 25%;
     z-index: -1;
 }
@@ -1120,10 +1122,6 @@ footer ul a {
     /* End Sec2 */
     /* -------------------------- */
     /* Start Sec3  */
-    .sec3 {
-        height: ;
-    }
-
     .sec3 .text {
         width: 80%;
     }
