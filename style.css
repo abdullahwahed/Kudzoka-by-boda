@@ -95,12 +95,12 @@ body {
 
 .sec1 .landing .text {
     padding-top: 140px;
-    width: 80%;
+    width: 50%;
 }
 
 .sec1 .landing h1 {
     font-weight: 450;
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
     color: #000000a1;
 
@@ -119,30 +119,30 @@ body {
 
 .sec1 .landing .img {
     position: relative;
-    width: 100%;
+    width: 50%;
 
 }
 
 .sec1 .landing .one {
     position: relative;
     width: 100%;
-    bottom: 19%;
-    left: 17%;
+    bottom: 14%;
+    left: 20%;
 }
 
 .sec1 .landing .two {
     position: absolute;
     width: 42%;
-    bottom: 48%;
-    left: 40%;
-
+    bottom: 40%;
+    left: 42%;
 }
 
+
 .sec1 .landing .three {
-    width: 60%;
+    width: 50%;
     position: absolute;
-    left: 34%;
-    top: 42%;
+    left: 40%;
+    top: 47%;
 }
 
 .sec1 .last-bg img {
